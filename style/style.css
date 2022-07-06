@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.content-with{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* all font size  */
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+p {
+    font-size: 22px;
+    line-height:35px;
+}
+
+/*banner section style */
+.banner{
+   background-image: url(../image/donation3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 620px;
+    position: relative;
+}
+.banner-overlay{
+    background-image:linear-gradient(to bottom, rgba(51, 51, 51, 0.208), rgb(0, 0, 0));
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1;
+}
+.banner-content{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-top: 130px;
+    position:relative;
+    z-index:2;
+}
+.button-link{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+    background-color: #f96262;
+    border-radius:8px;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top:20px;
+}
+
+/*donate section style  */
+.donate-content{
+    text-align: center;
+     margin: 100px 0;
+}
+.donate-amount{
+    margin-bottom: 70px;
+}
+.donate-amount button{
+    font-weight: 800;
+    padding: 50px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+}
+#active-button{
+    border: 3px solid#f96262;
+    background-color: #f9626247;
+}
+.donate-form  form input{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 13px;
+}
+.donate-form form input:focus{
+    outline: none;
+}
+ .\'button-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+    background-color: #f96262;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+/*  donate plan section  style */
+.donate-plan-content{
+    text-align: center;
+}
+.all-plan{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.single-plan{
+    margin: 10px 10px;
+    text-align:left;
+}
+#family{
+    background-color:#dff9fb65;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #cdcdcd;
+    padding: 80px 20px 30px 20px;
+}
+#shelter{
+    background-color:#ffcccc56;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ffcccc;
+    padding: 80px 20px 30px 20px;
+}
+#education{
+    background-color:#ffeaa770;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ffeaa7;
+    padding: 80px 20px 30px 20px;
+}
+
+/* partners section style */
+.partners-content{
+    text-align: center;
+     margin: 100px 0;
+}
+.company-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.company-logo img{
+    width:20%;
+    margin:0 25px;
+}
+
+/*  update section  style */
+.update-content{
+    text-align:center;
+    margin: 80px 0;
+}
+.update-message {
+    padding: 60px 100px;
+    background-color: #ffeaa7b9;
+    border-radius: 5px;
+    margin: 50px;
+}
+form .message-text{
+    padding: 20px 150px 20px 15px;
+    border: none;
+    border-radius: 5px;
+}
+input.\'message-btn {
+    padding: 20px 50px;
+    background-color: #f96262;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+form input:focus{
+    outline: none;
+}
+
+/*  footer section style */
+.footer{
+    background-color:#333;
+    padding: 15px 0;
+}
+.footer-content{
+    text-align: center;
+    color: #fff;
+}
+.footer-heading{
+    font-family: 'Kaushan Script', cursive;
+    color: #f96262;
+    margin: 10px 0;
+    font-size: 35px;
+}
